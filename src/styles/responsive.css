@@ -1,0 +1,78 @@
+/* tablet */
+@media screen and (min-width:700px){
+	header h1 {
+		font-size: 35px;
+	}
+	#hero > .hero_content {
+		min-height: 300px;
+	}
+	#hero > .hero_content h2 {
+		font-size: 30px;
+	}
+	#hero > .hero_content p {
+		font-size: 20px;
+	}
+	#resto > .resto_list {
+        gap: 20px;
+	}
+	.detail_resto {
+		max-width: 700px;
+	}
+	.detail_resto > .name {
+		font-size: 30px;
+	}
+	.detail_resto img {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* laptop */
+@media screen and (min-width:1024px) {
+	.hamburger {
+		display: none;
+	}
+	.menu {
+        position: inherit;
+        background-color: transparent;
+        display: flex;
+        padding: 5px;
+        transform: none;
+        align-items: center;
+    }
+    .menu.open {
+        transform: none;
+        transition: none;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+	.resto_item {
+		max-width: 300px;
+	}
+	.resto_item img {
+		width: 100%;
+		max-height: 200px;
+	}
+	.detail_resto {
+		max-width: 900px;
+	}
+	.detail_resto img {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.info_resto .review {
+		font-size: 18px;
+	}
+	.detail_resto > .desc .menus {
+		font-size: 23px;
+	}
+}
+
+@media screen and (min-width:1440px) {
+	#hero {
+		min-width: 1000px;
+	}
+}
